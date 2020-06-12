@@ -11,9 +11,41 @@
       <link rel="shortcut icon" href="{{url_for('static', filename='favicon.ico')}}" />
    </head>
    <body>
-      <p>Home</p>
-      <a href="/portfolio" target="_blank">Portfolio</a>
-      <a href="/picks" target="_blank">Picks</a>
-      <a href="/contact" target="_blank">Contact</a>
+
+         <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #cc99ff;">
+
+            <a class="navbar-brand" href="#">Van Brantley</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li>
+                     <a class="nav-link" href="/portfolio">Portfolio</a>
+                  </li>
+                  <li>
+                     <a class="nav-link" href="/picks">Picks</a>
+                  </li>
+                  <li>
+                     <a class="nav-link" href="/contact">Contact</a>
+                  </li>
+               </ul>
+            </div>
+
+         </nav>
+
+         <div class="home-row" id="top">
+            <h3 id="top-text">Hi, my name is Van. I am a full stack developer living in Maplewood, NJ.</h3>
+         </div>
+
+         <div class="home-row" id="bottom">
+
+         </div>
+
+
    </body>
 </html>
