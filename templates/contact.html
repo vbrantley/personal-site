@@ -11,30 +11,59 @@
       <link rel="shortcut icon" href="{{url_for('static', filename='favicon.ico')}}" />
    </head>
    <body>
-      <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #cc99ff;">
 
-         <a class="navbar-brand" href="#">Van Brantley</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-         </button>
+      <div class="container-fluid">
+         <div class="row">
 
-         <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ml-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="/">Home</a>
-               </li>
-               <li>
-                  <a class="nav-link" href="/portfolio">Portfolio</a>
-               </li>
-               <li>
-                  <a class="nav-link" href="/picks">Picks</a>
-               </li>
-               <li>
-                  <a class="nav-link active" href="/contact">Contact <span class="sr-only">(current)</span></a>
-               </li>
-            </ul>
+            <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #cc99ff; width:100%;">
+
+               <a class="navbar-brand" href="#">Van Brantley</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+
+               <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                     </li>
+                     <li>
+                        <a class="nav-link" href="/portfolio">Portfolio</a>
+                     </li>
+                     <li>
+                        <a class="nav-link" href="/picks">Picks</a>
+                     </li>
+                     <li>
+                        <a class="nav-link active" href="/contact">Contact <span class="sr-only">(current)</span></a>
+                     </li>
+                  </ul>
+               </div>
+
+            </nav>
          </div>
 
-      </nav>
+         <div class="row">
+            <div class="col-md-6 col-xs-12">
+               <p>LinkedIn</p>
+            </div>
+            <div class="col-md-6 col-xs-12">
+               <p>Email</p>
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="col-md-6 col-xs-12">
+               <p>GitHub</p>
+            </div>
+            <div class="col-md-6 col-xs-12">
+               <p>Instagram</p>
+            </div>
+         </div>
+
+
+
+      </div>
+
+
    </body>
 </html>
